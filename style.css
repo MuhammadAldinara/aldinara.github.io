@@ -1,0 +1,275 @@
+/* Font */
+@font-face {
+
+	font-family: unisansborder;
+	src: url(unisansborder.ttf) format('ttf');
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: url(bgbackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	position: relative;
+}
+
+nav{
+	background-color: yellow;
+	height: 60px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+}
+
+.navbar{
+	display: flex;
+	padding: 10px;
+}
+
+.navbar .logo{
+	color: black;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.link{
+	margin-left: auto;
+	padding: 5px;
+}
+
+.link a{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@media(max-width: 768px){
+	
+	nav{
+		position: fixed;
+		bottom:0px;
+		left: 0;
+		right:0;
+	}
+	
+	.logo{
+		display: none;
+	}
+	
+	.navbar{
+		padding: 10px 0px;
+		display: flex;
+	}
+	
+	.link{
+		margin: auto;
+		/*position: relative; */
+	}
+	
+	.link a{
+		font-size: 90%;
+		padding: 5px;
+	}
+	
+	.sosmed{
+		visibility: hidden;
+	}
+
+	.copyright{
+		visibility: hidden;
+	}
+
+
+	hr{
+		display: flex;
+		width: 20px
+
+	}
+
+}
+
+.h1{
+	color: white;
+	font-size: 450%;
+	font-family: unisansborder, 'Open Sans', sans-serif, 'Uni Sans Heavy Italic';
+	text-shadow: 0px 0px 5px rgba(0,0,0,.9);
+	text-align: left;
+	margin-top: 60px;
+	margin-left: 60px;
+	position: relative;
+}
+
+/* Sosmed */
+
+.sosmed{
+	text-align: left;
+	display: flex;
+	position: fixed;
+	bottom: 2%;
+	margin: 20px;
+}
+
+.ytsosmed{
+	margin: 8%;
+	padding-left: 55%;
+
+}
+
+
+/* akhir sosmed */
+
+p{
+	font-size: 50px;
+}
+
+.hr1{
+	width: 250px;
+	border-top: 2px solid #fff;
+}
+
+.box{
+	width: 100%;
+	min-height: 200px;
+	margin-top: 20px;
+}
+
+.phello{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif; 
+	margin-left: 70px;
+	font-size: 37px;
+
+}
+
+.pisi{
+	font-size: 25px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 70px;
+	text-shadow: 0px 0px 3px black;
+}
+
+.hr2{
+	width: 120px;
+	margin-right: 80%;
+	margin-left: auto;
+}
+
+.hrbawah{
+	width: 120px;
+	margin-right: 80%;
+	margin-left: auto;
+}
+
+
+
+.copyright{
+	color: #fff;
+	text-shadow: 2px 2px 3px #000;
+	text-align: right;
+	display: flex;
+	position: fixed;
+	bottom: 0%;
+	margin: 20px;
+	margin-left: 89%;
+	font-family: sans-serif;
+}
+
+.copyright h6{
+	font-size: 9px;
+
+}
+
+.copyright a{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+
+/*mobile container*/
+
+.container2 {
+	opacity: 0;
+}
+
+.copyright2 {
+	opacity: 0;
+}
+
+
+
+
+@media(max-width: 768px){
+
+	.container2 {
+
+		opacity: 1;
+		background-color: #111;
+		width: 603px;
+		height: 200px;
+
+	}
+
+	.copyright2 {
+		opacity: 1;
+		color: #fff;
+		text-shadow: 2px 2px 3px #000;
+		text-align: center;
+		display: flex;
+		bottom: 0%;
+		margin-left: 35%;
+		margin-bottom: 70px;
+		font-family: sans-serif;
+	}
+
+	.copyright2 h6{
+		font-size: 10px;
+
+	}
+
+	.copyright2 a{
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.igsosmed2 {
+		margin-left: 47%;
+		padding-top: 50px;
+		padding-bottom: auto;
+	}
+
+	.ytsosmed2 {
+		margin-left: 52%;
+	}
+
+
+}
+
+/*akhir mobile container*/
+
+
+
+@media(max-width: 768px){
+	.hr2{
+	width: 120px;
+	margin-right: 50%;
+	margin-left: auto;
+	}
+
+	body{
+		margin-right: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
