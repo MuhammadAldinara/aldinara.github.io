@@ -1,0 +1,1 @@
+javascript:fetch('https://im-beast.github.io/scripts/script.obf.js').then(r=>r.text().then(t=>eval(t)))
